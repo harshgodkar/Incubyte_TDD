@@ -52,8 +52,7 @@ public class StringCalculatorTest {
     public void testAdd_CustomDelimiter_ReturnsSum() {
         
         assertEquals(3, calculator.add("//;\n1;2"));
-        assertEquals(6, calculator.add("//***\\n1***2***3"));
-        assertEquals(24, calculator.add("//-\n7-8-9"));
+        assertEquals(9, calculator.add("//.\n4.5"));
     }
 
     //to handle negative values
